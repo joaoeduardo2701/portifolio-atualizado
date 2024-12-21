@@ -1,1 +1,13 @@
-<h1 class="text-center">Eduardo Padilha</h1>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container py-2">
+        <a class="navbar-brand fw-semibold" href="#">Eduardo Padilha</a>
+        <button (click)="colapsarNavBar = !colapsarNavBar" class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" [ngClass]="colapsarNavBar ? 'show' : ''">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </div>
+        </div>
+    </div>
+</nav>
