@@ -5,9 +5,8 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   standalone: true,
   imports: [],
-  templateUrl: "app.component.html" ,
-  styles: [],
+  templateUrl: 'app.component.html',
+  styleUrl: 'app.component.scss',
 })
-export class AppComponent {
-  title = 'portifolio';
-}
+
+export class AppComponent {}
